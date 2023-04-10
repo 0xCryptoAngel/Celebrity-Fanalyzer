@@ -1,0 +1,47 @@
+{
+  "name": "celebrity-fanalyzer",
+  "version": "1.0",
+  "description": "Celebrities Over Analyzed",
+  "productName": "Celebrity Fanalyzer",
+  "private": true,
+  "scripts": {
+    "build": "quasar build --mode pwa",
+    "dev": "quasar dev --mode pwa",
+    "format": "prettier --write \"**/*.{js,vue,css,html,md,json}\" --ignore-path .gitignore",
+    "lint": "eslint --ext .js,.vue ./",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.15.10",
+    "echarts": "^5.4.1",
+    "firebase": "^9.16.0",
+    "pinia": "^2.0.29",
+    "pinia-plugin-persistedstate": "^3.0.2",
+    "quasar": "^2.11.5",
+    "sha1": "^1.1.1",
+    "vue": "^3.2.45",
+    "vue-echarts": "^6.5.1",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@quasar/app-vite": "^1.2.0",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.32.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-vue": "^9.9.0",
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.3",
+    "workbox-build": "^6.5.4",
+    "workbox-cacheable-response": "^6.5.4",
+    "workbox-core": "^6.5.4",
+    "workbox-expiration": "^6.5.4",
+    "workbox-precaching": "^6.5.4",
+    "workbox-routing": "^6.5.4",
+    "workbox-strategies": "^6.5.4"
+  },
+  "engines": {
+    "node": "^18 || ^16 || ^14.19",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
